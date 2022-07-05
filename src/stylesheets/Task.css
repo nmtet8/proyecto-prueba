@@ -1,0 +1,50 @@
+.task-container {
+  width: 500px;
+  min-height: 65px;
+  background-color: #bc6347;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* Texto */
+
+.task-text {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+/* Icono */
+
+.task-delete-icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.task-favourite-icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+/* Tarea Completada */
+
+.task-container.completed {
+  background-color: #495857;
+  text-decoration: line-through;
+}
+
+.task-container.favourite {
+  box-shadow: 1px 1px #dfe47c, 2px 2px #dfe47c, 3px 3px #dfe47c;
+  transform: translateX(-3px);
+}
