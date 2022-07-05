@@ -17,7 +17,6 @@ function TaskForm(props) {
       completed: false,
       favourite: false,
     };
-    console.log(newTask);
 
     props.onSubmit(newTask);
 
